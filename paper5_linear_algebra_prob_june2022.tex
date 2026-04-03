@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{10}{|c|}{USN} \\
+\hline
+& & & & & & & & & \\
+\hline
+\end{tabular}
+
+\vspace{0.4cm}
+
+{\Large \textbf{NMAM INSTITUTE OF TECHNOLOGY, NITTE}}\\[0.2cm]
+{\small \textit{(An Autonomous Institution affiliated to VTU, Belagavi)}}\\[0.2cm]
+{\large \textbf{IV Sem B.E. (CS/IS/AM/CC) Mid Semester Examinations - II, June 2022}}\\[0.2cm]
+{\large \textbf{20CS401 /20IS401 / 20AM401/ 20CC401 -- LINEAR ALGEBRA \& PROBABILITY THEORY}}\\[0.2cm]
+\end{center}
+
+\noindent
+\begin{tabular}{p{8cm}r}
+\textbf{Duration:} 1 Hour & \textbf{Max. Marks:} 20
+\end{tabular}
+
+\vspace{0.2cm}
+\begin{center}
+\textit{Note: Answer any \textbf{One} full question from \textbf{each Unit}.}
+\end{center}
+
+\vspace{0.2cm}
+
+\begin{center}
+{\large \textbf{Unit -- I}}
+\end{center}
+
+\noindent
+\begin{tabular}{|p{10.5cm}|c|c|c|c|}
+\hline
+\textbf{Question} & \textbf{Marks} & \textbf{BTL*} & \textbf{CO*} & \textbf{PO*} \\
+\hline
+\textbf{1. a)} Check whether a transformation $T:R^2 \to R^3$ defined by $T(x,y) = (3x + y, 5x + 7y, x + 3y)$ is a linear transformation or not. & 4 & L*2 & 3 & 1 \\
+\hline
+\textbf{b)} i) State Rank-Nullity theorem. \newline
+ii) Let a linear transformation $T: R^3 \to R^3$ be defined by $T(x,y,z) = (x + 2y - z, \; y + z, \; x + y - 2z)$. Find the null space of T and rank of T. & 6 & L3 & 3 & 1 \\
+\hline
+\textbf{2. a)} Find the matrix of the linear transformation $T:R^3 \to R^2$ defined by $T(x,y,z) = (x - y + 2z, 3x + y)$ with respect to bases $B = \{(1,1,1), (1,2,3), (1,0,0)\}$ and $B' = \{(1,1), (1,-1)\}$. & 4 & L2 & 3 & ~ \\
+\hline
+\textbf{b)} Construct an orthonormal basis for a subspace W of $R^3$ with a basis $\{x_1, x_2, x_3\}$ where $x_1 = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$, $x_2 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$, $x_3 = \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix}$ of W, using Gram\_schmidt process. & 6 & L3 & 3 & 1 \\
+\hline
+\end{tabular}
+
+\vspace{0.4cm}
+
+\begin{center}
+{\large \textbf{Unit -- II}}
+\end{center}
+
+\noindent
+\begin{tabular}{|p{10.5cm}|c|c|c|c|}
+\hline
+\textbf{Question} & \textbf{Marks} & \textbf{BTL*} & \textbf{CO*} & \textbf{PO*} \\
+\hline
+\textbf{3. a)} Find a least square solution of $AX=B$ where \newline
+$A = \begin{bmatrix} 4 & 0 \\ 0 & 2 \\ 1 & 1 \end{bmatrix}$ and $B = \begin{bmatrix} 2 \\ 0 \\ 11 \end{bmatrix}$. & 4 & L2 & 3 & 1 \\
+\hline
+\textbf{b)} i) The pdf $p(x)$ of a variate X is given by the following table \newline
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+X & 0 & 1 & 3 & 4 & 5 & 6 \\
+\hline
+p(x) & k & 3k & 5k & 9k & 10k & 12k \\
+\hline
+\end{tabular} \newline
+For what value of k, does this represent a valid probability distribution? \newline
+Also find $P(X > 3)$ and $E[X]$. \newline
+ii) If $f(x) = kx^3$, $0 < x < 1$ \newline
+\hspace{1cm} $= 0$, elsewhere \newline
+is a pdf of the random variable X, find \newline
+(i) the value of k \quad (ii) $P(X>0.7)$ \quad (iii) $P\left(\frac{1/4<X<3/4}{X>1/2}\right)$ & 3+3 & L2 & 4 & 1 \\
+\hline
+\textbf{4. a)} If X is a random variable, prove that \newline
+(i) $V(X) = E(X^2) - [E(X)]^2$. \newline
+(ii) $V(aX + b) = a^2 V(X)$ where a and b are constants. & 4 & L2 & 4 & 1 \\
+\hline
+\textbf{b)} i) State Bayes' theorem. \newline
+ii) A business man goes to hotels X, Y, Z 30\%, 45\% and 25\% of the time respectively. It is known that 5\%, 4\%, 6\% of the rooms in hotels X, Y, Z respectively have faulty plumbing. Determine the probability \newline
+(i) that the business man goes to hotel with faulty plumbing \newline
+(ii) that business man's room having faulty plumbing is assigned to hotel Y? & 6 & L3 & 4 & 1 \\
+\hline
+\end{tabular}
+
+\vspace{0.3cm}
+\begin{center}
+\small{Bloom's Taxonomy, L* Level; CO* Course Outcome; PO* Program Outcome}\\[0.2cm]
+******************
+\end{center}
+
+\end{document}

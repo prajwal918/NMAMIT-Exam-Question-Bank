@@ -1,0 +1,15 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Temporary PNG extractions (can be regenerated)
+mse2_page-*.png
+
+# OS files
+Thumbs.db
+.DS_Store
