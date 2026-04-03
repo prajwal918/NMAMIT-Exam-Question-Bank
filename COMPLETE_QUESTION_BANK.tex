@@ -235,6 +235,66 @@ b) Let $T: \mathbb{R}^3 \to \mathbb{R}^2$ be defined by $T(x,y,z) = (x+2y-z, 2x-
 
 b) Find the least squares solution of $A\vec{x} = \vec{b}$ where $A = \begin{bmatrix} 1 & 1 \\ 1 & 2 \\ 1 & 3 \end{bmatrix}$, $\vec{b} = \begin{bmatrix} 1 \\ 2 \\ 4 \end{bmatrix}$. \hfill [8 Marks]
 
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+\subsection{20CS401/20IS401/20AM401/20CC401 MSE-II -- June 2022}
+\examheader{Mid Semester Examination - II, June 2022}{20CS401/20IS401/20AM401/20CC401 -- LINEAR ALGEBRA \& PROBABILITY THEORY}{1 Hour}{20}
+
+\textit{Note: Answer any One full question from each Unit.}
+
+\subsubsection*{UNIT -- I}
+
+\textbf{Q1.} a) Check whether a transformation $T: \mathbb{R}^2 \to \mathbb{R}^3$ defined by $T(x,y) = (3x+y, 5x+7y, x+3y)$ is a linear transformation or not. \hfill [4 Marks]
+
+b) State Rank-Nullity theorem. \hfill [4 Marks]
+
+\textbf{Q2.} a) Let a linear transformation $T: \mathbb{R}^3 \to \mathbb{R}^3$ be defined by $T(x,y,z) = (x+2y-z, y+z, x+y-2z)$. Find the null space of $T$ and rank of $T$. \hfill [6 Marks]
+
+\textbf{Q3.} Find the matrix of the linear transformation $T: \mathbb{R}^3 \to \mathbb{R}^2$ defined by $T(x,y,z) = (x-y+2z, 3x+y)$ with respect to bases $B = \{(1,1,1), (1,2,3), (1,0,0)\}$ and $B' = \{(1,1), (1,-1)\}$. \hfill [4 Marks]
+
+\textbf{Q4.} Construct an orthonormal basis for a subspace $W$ of $\mathbb{R}^3$ with a basis $\{x_1, x_2, x_3\}$ where $x_1 = \begin{pmatrix} 1 \\ 0 \\ 1 \end{pmatrix}$, $x_2 = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$, $x_3 = \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix}$ of $W$, using Gram-Schmidt process. \hfill [6 Marks]
+
+\subsubsection*{UNIT -- II}
+
+\textbf{Q5.} Find a least square solution of $AX = B$ where $A = \begin{bmatrix} 4 & 0 \\ 0 & 2 \\ 1 & 1 \end{bmatrix}$ and $B = \begin{bmatrix} 2 \\ 0 \\ 11 \end{bmatrix}$. \hfill [4 Marks]
+
+\textbf{Q6.} a) The pdf $p(x)$ of a variate $X$ is given by the following table:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+$X$ & 0 & 1 & 3 & 4 & 5 & 6 \\
+\hline
+$p(x)$ & $k$ & $3k$ & $5k$ & $9k$ & $10k$ & $12k$ \\
+\hline
+\end{tabular}
+\end{center}
+
+For what value of $k$, does this represent a valid probability distribution? Also find $P(X > 3)$ and $E[X]$. \hfill [3+3 Marks]
+
+b) If $f(x) = kx^3$, $0 < x < 1$, and $= 0$ elsewhere, is a pdf of the random variable $X$, find:
+\begin{enumerate}[label=(\roman*)]
+\item the value of $k$
+\item $P(X > 0.7)$
+\item $P\left(\frac{1/4 < X < 3/4}{X > 1/2}\right)$
+\end{enumerate} \hfill [3+3 Marks]
+
+\textbf{Q7.} a) If $X$ is a random variable, prove that:
+\begin{enumerate}[label=(\roman*)]
+\item $V(X) = E(X^2) - [E(X)]^2$
+\item $V(aX + b) = a^2 V(X)$ where $a$ and $b$ are constants.
+\end{enumerate} \hfill [4 Marks]
+
+\textbf{Q8.} a) State Bayes' theorem. \hfill [2 Marks]
+
+b) A business man goes to hotels $X$, $Y$, $Z$ 30\%, 45\% and 25\% of the time respectively. It is known that 5\%, 4\%, 6\% of the rooms in hotels $X$, $Y$, $Z$ respectively have faulty plumbing. Determine the probability:
+\begin{enumerate}[label=(\roman*)]
+\item that the business man goes to hotel with faulty plumbing
+\item that business man's room having faulty plumbing is assigned to hotel $Y$?
+\end{enumerate} \hfill [6 Marks]
+
 %-------------------------------------------------------------------------------
 \section{SEE (Semester End Examinations)}
 %-------------------------------------------------------------------------------
@@ -784,6 +844,73 @@ b) Summarize Horspool algorithm. Search TIME in ``A STITCH IN TIME SAVES NINE''.
 
 b) Write BFS algorithm. List two facts differentiating BFS from DFS. \hfill [4 Marks]
 
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+\subsection{20CS402/20IS402/20AM402/20CC402 MSE-II -- June 2022}
+\examheader{Mid Semester Examination - II, June 2022}{20CS402/20IS402/20AM402/20CC402 -- DESIGN AND ANALYSIS OF ALGORITHMS}{1 Hour}{20}
+
+\textit{Note: Answer any One full question from each Unit.}
+
+\subsubsection*{UNIT -- I}
+
+\textbf{Q1.} Develop an algorithm to perform Insertion Sort and analyze the best and worst case efficiencies. \hfill [4 Marks]
+
+\textbf{Q2.} Find the solution for following problem using topological sorting method. Consider a set of 5 courses $\{C_1, C_2, C_3, C_4, C_5\}$, a part time student has to take in some degree program. The courses can be taken in any order as long as the following course prerequisites are met: $C_1$ and $C_2$ have no prerequisites, $C_3$ requires $C_1$ and $C_2$, $C_4$ requires $C_3$ and $C_5$ requires $C_3$ and $C_4$. The student can take only one course per term. \hfill [3 Marks]
+
+\textbf{Q3.} Construct 2-3 tree for the data: C, O, M, P, U, T, I, N, G. \hfill [3 Marks]
+
+\textbf{Q4.} Explain Horspool's algorithm and apply the algorithm to find the pattern ``MONEY'' in the text ``A FOOL AND HIS MONEY ARE PARTED SOON''. \hfill [4 Marks]
+
+\textbf{Q5.} Apply closed hashing to distribute the keys 10, 23, 14, 19, 17, 32, 45 using the function $H(k) = K \mod 11$. \hfill [2 Marks]
+
+\textbf{Q6.} Construct heap and sort using array representation: 2, 9, 8, 14, 22, 16, 7. \hfill [4 Marks]
+
+\subsubsection*{UNIT -- II}
+
+\textbf{Q7.} Outline the pseudocode for Prim's algorithm to find the minimum spanning tree. Apply the Prim's algorithm to find the minimum spanning tree for the following graph:
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8, every node/.style={circle, draw, minimum size=0.8cm}]
+\node (5) at (0,2) {5};
+\node (4) at (2,3) {4};
+\node (3) at (4,3) {3};
+\node (6) at (6,2) {6};
+\node (1) at (0,0) {1};
+\node (2) at (3,0) {2};
+\draw (5) -- node[above left, draw=none] {9} (4);
+\draw (4) -- node[above, draw=none] {5} (3);
+\draw (3) -- node[above right, draw=none] {8} (6);
+\draw (5) -- node[left, draw=none] {4} (1);
+\draw (1) -- node[below, draw=none] {1} (2);
+\draw (2) -- node[below right, draw=none] {2} (6);
+\draw (4) -- node[right, draw=none] {3} (2);
+\draw (3) -- node[right, draw=none] {3} (2);
+\draw (5) -- node[above right, draw=none] {3} (2);
+\draw (2) -- node[right, draw=none] {7} (6);
+\end{tikzpicture}
+\end{center}
+\hfill [6 Marks]
+
+\textbf{Q8.} Write a pseudocode for Bellman Ford algorithm to find the single source shortest path. \hfill [4 Marks]
+
+\textbf{Q9.} a) Construct a Huffman code for the following data:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Character & A & B & C & D & \_ \\
+\hline
+Probability & 0.4 & 0.1 & 0.2 & 0.15 & 0.15 \\
+\hline
+\end{tabular}
+\end{center}
+
+Encode the text ``ABACABAD'' using the code obtained. Decode the text whose encoding is 1000101110010010. \hfill [6 Marks]
+
+b) Write the pseudocode for single source shortest path in DAG. \hfill [4 Marks]
+
 %-------------------------------------------------------------------------------
 \section{SEE (Semester End Examinations)}
 %-------------------------------------------------------------------------------
@@ -952,7 +1079,33 @@ b) Show process model of elicitation and analysis process. \hfill [8 Marks]
 \section{MSE-II Examinations}
 %-------------------------------------------------------------------------------
 
-[MSE-II papers for SEPM would go here if available in the source materials]
+\subsection{21CS404 MSE-II -- July 2023}
+\examheader{Mid Semester Examination - II, July 2023}{21CS404 -- SOFTWARE ENGINEERING AND PROJECT MANAGEMENT}{1 Hour}{20}
+
+\textbf{Note:} 1) Answer any One full question from each Unit.\\
+2) Provide necessary diagrams wherever needed
+
+\subsubsection*{Unit -- I}
+
+\textbf{1.} a) With neat diagram explain the organization of the Model-View-Controller. \hfill [5 Marks, L*2, CO* 2, PO* 1,2]
+
+b) Explain the context model with a neat diagram. \hfill [5 Marks, L2, CO* 2, PO* 1]
+
+\textbf{2.} a) Draw and explain the sequence diagram for describing data collection for Weather Information System. \hfill [5 Marks, L2, CO* 3, PO* 1]
+
+b) Develop an architecture for a language processing system. \hfill [5 Marks, L3, CO* 2, PO* 1]
+
+\subsubsection*{Unit -- II}
+
+\textbf{3.} a) Construct a state diagram of a microwave oven system. \hfill [5 Marks, L3, CO* 2, PO* 1,2]
+
+b) List and explain the principles of the agile method. \hfill [5 Marks, L2, CO* 3, PO* 1]
+
+\textbf{4.} a) Briefly explain the five stages of the object-oriented design process. \hfill [5 Marks, L2, CO* 3, PO* 1]
+
+b) Explain the repository model with a neat block diagram. \hfill [5 Marks, L2, CO* 2, PO* 1]
+
+\vspace{0.5cm}
 
 %-------------------------------------------------------------------------------
 \section{SEE (Semester End Examinations)}
@@ -1095,7 +1248,39 @@ b) Explain interrupt structure of 8086 microprocessor. \hfill [8 Marks]
 \section{MSE-II Examinations}
 %-------------------------------------------------------------------------------
 
-[MSE-II papers for Microprocessor would go here if available]
+\subsection{21CS403 MSE-II -- July 2023}
+\examheader{Mid Semester Examination - II, July 2023}{21CS403 -- MICROPROCESSOR AND EMBEDDED SYSTEM}{1 Hour}{20}
+
+\textbf{Note:} Answer any One full question from each Unit.
+
+\subsubsection*{Unit -- I}
+
+\textbf{1.} a) Write the procedure to convert two ASCII values to the equivalent hexadecimal. Write appropriate comments. \hfill [4 Marks, L*2, CO* 2, PO* 1]
+
+b) Develop an assembly language program to extract the hour from the system time and display in decimal at row number 8 and column number 20 in the format: HOUR: 10 where 10 is the current hour extracted from the system time. Write appropriate comments. \hfill [6 Marks, L3, CO* 2, PO* 2]
+
+\textbf{2.} a) Explain the interrupts required to perform the following tasks by specifying the necessary parameters involved:
+\begin{enumerate}[label=\roman*.]
+\item Buffered keyboard input
+\item Set system date
+\item Get cursor position
+\item Create sub directory
+\end{enumerate}
+\hfill [4 Marks, L2, CO* 2, PO* 1]
+
+b) Develop an assembly language program to read a string from the keyboard and write the same to a file. Display the appropriate error messages. Write appropriate comments. \hfill [6 Marks, L3, CO* 2, PO* 2]
+
+\subsubsection*{Unit -- II}
+
+\textbf{3.} a) Bring out the various differences between RISC and CISC machines. \hfill [5 Marks, L2, CO* 3, PO* 1]
+
+b) Develop an embedded C program to display a message using scrolling effect on LCD for a suitable period of time in both directions. Do not use the built-in function for scrolling. \hfill [5 Marks, L3, CO* 4, PO* 2]
+
+\textbf{4.} a) Explain the embedded system software in detail. \hfill [5 Marks, L2, CO* 3, PO* 1]
+
+b) Develop an embedded C program to perform up-down counter on a 7-segment display using switches. \hfill [5 Marks, L3, CO* 4, PO* 2]
+
+\vspace{0.5cm}
 
 %-------------------------------------------------------------------------------
 \section{SEE (Semester End Examinations)}
@@ -1242,7 +1427,7 @@ b) Discuss design challenges. \hfill [8 Marks]
 \rule{\textwidth}{1pt}\\[1cm]
 \textit{This comprehensive document contains all examination papers:}\\[0.3cm]
 \textbf{MSE-I:} February 2025, February 2024, June 2023\\
-\textbf{MSE-II:} April 2025, July 2023\\
+\textbf{MSE-II:} April 2025, July 2023, June 2022\\
 \textbf{SEE:} May 2025, May 2024, July 2024, January 2023, August 2023\\
 \textbf{Supplementary:} September 2022\\[0.5cm]
 \textbf{Subjects:} Linear Algebra, DBMS, DAA, SEPM, Microprocessor, Design Thinking
