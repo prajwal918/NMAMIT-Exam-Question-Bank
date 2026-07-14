@@ -6,8 +6,11 @@ This repository is built with strict enterprise engineering standards, focusing 
 
 ```mermaid
 graph TD
-    A[Client] --> B(Application Container)
-    B --> C{Core Logic}
+    A[WhatsApp Images] -->|img2pdf| B(PDF Converter Pipeline)
+    C[LaTeX Sources] -->|pdflatex| D(PDF Compilation Engine)
+    B --> E{PDF Merge Process}
+    D --> E
+    E --> F[Final Compiled Question Bank]
 ```
 
 ## 🚀 Setup Instructions
