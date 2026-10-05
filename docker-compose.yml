@@ -1,8 +1,15 @@
 version: '3.8'
 services:
-  app:
+  converter:
     build: .
-    ports:
-      - "8080:80"
     volumes:
       - .:/app
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
